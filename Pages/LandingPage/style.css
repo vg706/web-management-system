@@ -1,0 +1,37 @@
+@media (min-width: 1080px) {
+    h1 {
+        font-size: 40px
+    }
+}
+@media (min-width: 700px) and (max-width: 1079px){
+    h1 {
+        font-size: 40px
+    }
+}
+@media (min-width: 375px) and (max-width: 699.98px){
+    h1 {
+        font-size: 20px
+    }
+    .nav-bar-text {
+        font-size: 15px
+    }
+}
+
+.nav-flex-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+#login-items {
+    display: flex;
+}
+.nav-bar-item {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: rgb(58, 18, 168);
+    text-decoration: none;
+}
+.nav-bar-text {
+    color: rgb(58, 18, 168);
+    text-decoration: none;
+}
