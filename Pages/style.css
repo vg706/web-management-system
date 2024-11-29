@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #050844 !important;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #26b7ff !important;
+}
+
+/* Carrossel */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Container principal */
+/* .container {
+    margin-top: 30px;
+} */
+
+/* Botões */
+.btn-primary {
+    background-color: #8b26ff !important;
+}
+
+.btn-primary:hover {
+    background-color: #3227c9 !important;
+}
+
+.carousel-control-next {
+    max-height: 50%;
+    max-width: 10%;
+    margin-top: 10%;
+}
+.carousel-control-prev {
+    max-height: 50%;
+    max-width: 10%;
+    margin-top: 10%;
+}
+
+/* Estilo do formulário */
+form .form-label {
+    font-weight: bold;
+}
+
+form .form-control {
+    border-radius: 0.5rem;
+}
+
+/* Ajuste para telas pequenas */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .carousel-item img {
+        height: 300px;
+    }
+
+    .container {
+        margin-top: 15px;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+}
+
+/* Estilo para a página de gestão */
+.container.mt-5 {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de texto centralizado */
+.text-center {
+    text-align: center;
+}
+
+/* Ajuste para garantir que as imagens se ajustem corretamente */
+.carousel-item img {
+    object-fit: contain;  
+    width: 100%;           
+    height: 100%;          
+}
+
+/* Ajustando a imagem para caber dentro do carrossel */
+.carousel-item img {
+    width: 100%;            
+    height: auto;           
+}
+
+.form-container h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
